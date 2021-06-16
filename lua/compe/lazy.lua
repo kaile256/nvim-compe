@@ -26,6 +26,10 @@ Lazy._sources = {
     require'compe'.register_source('spell', require'compe_spell')
   end,
 
+  words = function()
+    require'compe'.register_source('words', require'compe_words')
+  end,
+
   vsnip = function()
     require'compe'.register_source('vsnip', require'compe_vsnip')
   end,
